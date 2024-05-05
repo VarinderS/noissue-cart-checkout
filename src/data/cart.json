@@ -1,0 +1,141 @@
+{
+  "products": [
+    {
+      "productSku": "SKU001",
+      "productType": "Custom",
+      "productName": "Custom Tissue",
+      "productQuantity": "1000",
+      "productDescription": "1000 pieces, standard size (50 x 75cm), paper color #ffffff, logo color #000000",
+      "supplier": {
+        "supplierId": "00001",
+        "supplierName": "ACME Printing Co."
+      },
+      "payment": {
+        "currency": "NZD",
+        "symbol": "$",
+        "total": "300.00"
+      }
+    },
+    {
+      "productSku": "SKU002",
+      "productType": "Custom",
+      "productName": "Custom Tissue",
+      "productQuantity": "5000",
+      "productDescription": "5000 pieces, small size (38 x 50cm), paper color #fff333, logo color #111111",
+      "supplier": {
+        "supplierId": "00001",
+        "supplierName": "ACME Printing Co."
+      },
+      "payment": {
+        "currency": "NZD",
+        "symbol": "$",
+        "total": "540.00"
+      }
+    },
+    {
+      "productSku": "SKU003",
+      "productType": "Custom",
+      "productName": "Custom Stamp Creator",
+      "productQuantity": "1",
+      "productDescription": "Manual, 3cm x 3cm, black stamp with custom logo",
+      "supplier": {
+        "supplierId": "00002",
+        "supplierName": "European Printing Co."
+      },
+      "payment": {
+        "currency": "NZD",
+        "symbol": "$",
+        "total": "44.00"
+      }
+    },
+    {
+      "productSku": "SKU004",
+      "productType": "Stocked",
+      "productName": "Recycled Mailer",
+      "productQuantity": "1000",
+      "productDescription": "1000 pieces, 165mm x 230mm",
+      "supplier": {
+        "supplierId": "00003",
+        "supplierName": "AU 3PL Co."
+      },
+      "payment": {
+        "currency": "NZD",
+        "symbol": "$",
+        "total": "250.00"
+      }
+    },
+    {
+      "productSku": "SKU005",
+      "productType": "Stocked",
+      "productName": "Compostable Mailer",
+      "productQuantity": "1000",
+      "productDescription": "1000 pieces, 260mm x 385mm",
+      "supplier": {
+        "supplierId": "00003",
+        "supplierName": "AU 3PL Co."
+      },
+      "payment": {
+        "currency": "NZD",
+        "symbol": "$",
+        "total": "350.00"
+      }
+    },
+    {
+      "productSku": "SKU006",
+      "productType": "Stocked",
+      "productName": "Compostable Shipping Labels",
+      "productQuantity": "60",
+      "productDescription": "60 rolls, Dymo (104mm x 159mm)",
+      "supplier": {
+        "supplierId": "00004",
+        "supplierName": "US 3PL Co."
+      },
+      "payment": {
+        "currency": "NZD",
+        "symbol": "$",
+        "total": "350.00"
+      }
+    }
+  ],
+  "shippingFees": {
+    "totalFee": {
+      "currency": "NZD",
+      "symbol": "$",
+      "total": "50.00"
+    },
+    "supplierShippingFees": [
+      {
+        "supplierId": "0001",
+        "payment": {
+          "currency": "NZD",
+          "symbol": "$",
+          "total": "20.00"
+        }
+      },
+      {
+        "supplierId": "0002",
+        "payment": {
+          "currency": "NZD",
+          "symbol": "$",
+          "total": "10.00"
+        }
+      },
+      {
+        "supplierId": "0003",
+        "payment": {
+          "currency": "NZD",
+          "symbol": "$",
+          "total": "10.00"
+        }
+      },
+      {
+        "supplierId": "0004",
+        "payment": {
+          "currency": "NZD",
+          "symbol": "$",
+          "total": "10.00"
+        }
+      }
+    ]
+  }
+}
